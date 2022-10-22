@@ -1,0 +1,940 @@
+[
+  {
+    "resourceType": "Observation",
+    "id": "M197499159",
+    "meta": {
+      "versionId": "1-197499158",
+      "lastUpdated": "2021-06-26T15:06:53.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Laboratory</p><p><b>Code</b>: HDL</p><p><b>Result</b>: 43 mg/dL</p><p><b>Date</b>: Jun 26, 2021  3:04 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ],
+      "text": "Laboratory"
+    },
+    "code": {
+      "coding": [{ "system": "http://loinc.org", "code": "2085-9" }],
+      "text": "HDL"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "effectiveDateTime": "2021-06-26T15:04:19.000Z",
+    "issued": "2021-06-26T15:06:50.000Z",
+    "valueQuantity": {
+      "value": 43,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197471489",
+    "meta": {
+      "versionId": "1-197471488",
+      "lastUpdated": "2021-04-14T14:52:25.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Laboratory</p><p><b>Code</b>: HDL</p><p><b>Result</b>: 56 mg/dL</p><p><b>Date</b>: Apr 14, 2021  2:52 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ],
+      "text": "Laboratory"
+    },
+    "code": {
+      "coding": [{ "system": "http://loinc.org", "code": "2085-9" }],
+      "text": "HDL"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "effectiveDateTime": "2021-04-14T14:52:12.000Z",
+    "issued": "2021-04-14T14:52:25.000Z",
+    "valueQuantity": {
+      "value": 56,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197465812",
+    "meta": {
+      "versionId": "1-197465811",
+      "lastUpdated": "2021-03-28T20:33:02.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Laboratory</p><p><b>Code</b>: HDL</p><p><b>Result</b>: 106 mg/dL</p><p><b>Date</b>: Mar 28, 2021  8:30 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ],
+      "text": "Laboratory"
+    },
+    "code": {
+      "coding": [{ "system": "http://loinc.org", "code": "2085-9" }],
+      "text": "HDL"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "effectiveDateTime": "2021-03-28T20:30:42.000Z",
+    "issued": "2021-03-28T20:33:02.000Z",
+    "valueQuantity": {
+      "value": 106,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197461684",
+    "meta": {
+      "versionId": "1-197461683",
+      "lastUpdated": "2021-03-13T19:12:50.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Laboratory</p><p><b>Code</b>: HDL</p><p><b>Result</b>: 123 mg/dL</p><p><b>Date</b>: Mar 13, 2021  7:11 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ],
+      "text": "Laboratory"
+    },
+    "code": {
+      "coding": [{ "system": "http://loinc.org", "code": "2085-9" }],
+      "text": "HDL"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "effectiveDateTime": "2021-03-13T19:11:16.000Z",
+    "issued": "2021-03-13T19:12:50.000Z",
+    "valueQuantity": {
+      "value": 123,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197444970",
+    "meta": {
+      "versionId": "1-197444969",
+      "lastUpdated": "2021-02-12T23:11:57.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Laboratory</p><p><b>Code</b>: HDL</p><p><b>Result</b>: 33 mg/dL</p><p><b>Date</b>: Feb 12, 2021 11:10 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ],
+      "text": "Laboratory"
+    },
+    "code": {
+      "coding": [{ "system": "http://loinc.org", "code": "2085-9" }],
+      "text": "HDL"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "effectiveDateTime": "2021-02-12T23:10:48.000Z",
+    "issued": "2021-02-12T23:11:57.000Z",
+    "valueQuantity": {
+      "value": 33,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197436399",
+    "meta": {
+      "versionId": "1-197436398",
+      "lastUpdated": "2021-02-01T18:59:51.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Laboratory</p><p><b>Code</b>: HDL</p><p><b>Result</b>: 45 mg/dL</p><p><b>Date</b>: Feb  1, 2021  6:58 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ],
+      "text": "Laboratory"
+    },
+    "code": {
+      "coding": [{ "system": "http://loinc.org", "code": "2085-9" }],
+      "text": "HDL"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "effectiveDateTime": "2021-02-01T18:58:38.000Z",
+    "issued": "2021-02-01T18:59:51.000Z",
+    "valueQuantity": {
+      "value": 45,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197432281",
+    "meta": {
+      "versionId": "1-197432280",
+      "lastUpdated": "2021-01-28T18:42:00.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Vital Signs</p><p><b>Code</b>: Height/Length Measured</p><p><b>Result</b>: 73 in</p><p><b>Date</b>: Jan 28, 2021  6:40 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    },
+    "code": {
+      "coding": [
+        { "system": "http://loinc.org", "code": "8302-2" },
+        { "system": "http://loinc.org", "code": "3137-7" }
+      ],
+      "text": "Height/Length Measured"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2021-01-28T18:40:35.000Z",
+    "issued": "2021-01-28T18:40:35.000Z",
+    "valueQuantity": {
+      "value": 73,
+      "unit": "in",
+      "system": "http://unitsofmeasure.org",
+      "code": "[in_i]"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "BP-197432259-197432261",
+    "meta": {
+      "versionId": "1-197432258-1-197432260",
+      "lastUpdated": "2021-01-28T18:41:30.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Vital Signs</p><p><b>Code</b>: Systolic Blood Pressure: Systolic Blood Pressure Sitting Diastolic Blood Pressure: Diastolic Blood Pressure Sitting</p><p><b>Result</b>: Systolic Blood Pressure: 150 mmHg Diastolic Blood Pressure: 115 mmHg</p><p><b>Date</b>: Jan 28, 2021  6:40 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "75367002",
+          "display": "Blood pressure (observable entity)"
+        },
+        { "system": "http://loinc.org", "code": "55284-4" }
+      ],
+      "text": "Blood pressure"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2021-01-28T18:40:35.000Z",
+    "issued": "2021-01-28T18:40:35.000Z",
+    "component": [
+      {
+        "code": {
+          "coding": [
+            { "system": "http://loinc.org", "code": "8459-0" },
+            { "system": "http://loinc.org", "code": "8480-6" }
+          ],
+          "text": "Systolic Blood Pressure Sitting"
+        },
+        "valueQuantity": {
+          "value": 150,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      {
+        "code": {
+          "coding": [
+            { "system": "http://loinc.org", "code": "8453-3" },
+            { "system": "http://loinc.org", "code": "8462-4" }
+          ],
+          "text": "Diastolic Blood Pressure Sitting"
+        },
+        "valueQuantity": {
+          "value": 115,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197432249",
+    "meta": {
+      "versionId": "1-197432248",
+      "lastUpdated": "2021-01-28T18:34:35.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Vital Signs</p><p><b>Code</b>: Height/Length Measured</p><p><b>Result</b>: 67 in</p><p><b>Date</b>: Jan 28, 2021  5:42 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    },
+    "code": {
+      "coding": [
+        { "system": "http://loinc.org", "code": "8302-2" },
+        { "system": "http://loinc.org", "code": "3137-7" }
+      ],
+      "text": "Height/Length Measured"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2021-01-28T17:42:10.000Z",
+    "issued": "2021-01-28T17:42:10.000Z",
+    "valueQuantity": {
+      "value": 67,
+      "unit": "in",
+      "system": "http://unitsofmeasure.org",
+      "code": "[in_i]"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "BP-197432227-197432229",
+    "meta": {
+      "versionId": "1-197432226-1-197432228",
+      "lastUpdated": "2021-01-28T18:34:03.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Vital Signs</p><p><b>Code</b>: Systolic Blood Pressure: Systolic Blood Pressure Sitting Diastolic Blood Pressure: Diastolic Blood Pressure Sitting</p><p><b>Result</b>: Systolic Blood Pressure: 180 mmHg Diastolic Blood Pressure: 120 mmHg</p><p><b>Date</b>: Jan 28, 2021  5:42 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "75367002",
+          "display": "Blood pressure (observable entity)"
+        },
+        { "system": "http://loinc.org", "code": "55284-4" }
+      ],
+      "text": "Blood pressure"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2021-01-28T17:42:10.000Z",
+    "issued": "2021-01-28T17:42:10.000Z",
+    "component": [
+      {
+        "code": {
+          "coding": [
+            { "system": "http://loinc.org", "code": "8459-0" },
+            { "system": "http://loinc.org", "code": "8480-6" }
+          ],
+          "text": "Systolic Blood Pressure Sitting"
+        },
+        "valueQuantity": {
+          "value": 180,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      {
+        "code": {
+          "coding": [
+            { "system": "http://loinc.org", "code": "8453-3" },
+            { "system": "http://loinc.org", "code": "8462-4" }
+          ],
+          "text": "Diastolic Blood Pressure Sitting"
+        },
+        "valueQuantity": {
+          "value": 120,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197415762",
+    "meta": {
+      "versionId": "1-197415761",
+      "lastUpdated": "2020-12-17T21:18:06.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Vital Signs</p><p><b>Code</b>: Height/Length Measured</p><p><b>Result</b>: 172 cm</p><p><b>Date</b>: Dec 17, 2020  9:17 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    },
+    "code": {
+      "coding": [
+        { "system": "http://loinc.org", "code": "8302-2" },
+        { "system": "http://loinc.org", "code": "3137-7" }
+      ],
+      "text": "Height/Length Measured"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2020-12-17T21:17:00.000Z",
+    "issued": "2020-12-17T21:17:54.000Z",
+    "valueQuantity": {
+      "value": 172,
+      "unit": "cm",
+      "system": "http://unitsofmeasure.org",
+      "code": "cm"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "BP-197412586-197412588",
+    "meta": {
+      "versionId": "2-197412589-2-197412590",
+      "lastUpdated": "2020-12-11T16:41:28.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Vital Signs</p><p><b>Code</b>: Systolic Blood Pressure: Systolic Blood Pressure Supine Diastolic Blood Pressure: Diastolic Blood Pressure Supine</p><p><b>Result</b>: Systolic Blood Pressure: 135 mmHg Diastolic Blood Pressure: 85 mmHg</p><p><b>Date</b>: Dec 11, 2020  4:39 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "75367002",
+          "display": "Blood pressure (observable entity)"
+        },
+        { "system": "http://loinc.org", "code": "55284-4" }
+      ],
+      "text": "Blood pressure"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2020-12-11T16:39:00.000Z",
+    "issued": "2020-12-11T16:40:58.000Z",
+    "component": [
+      {
+        "code": {
+          "coding": [
+            { "system": "http://loinc.org", "code": "8461-6" },
+            { "system": "http://loinc.org", "code": "8480-6" }
+          ],
+          "text": "Systolic Blood Pressure Supine"
+        },
+        "valueQuantity": {
+          "value": 135,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      },
+      {
+        "code": {
+          "coding": [
+            { "system": "http://loinc.org", "code": "8455-8" },
+            { "system": "http://loinc.org", "code": "8462-4" }
+          ],
+          "text": "Diastolic Blood Pressure Supine"
+        },
+        "valueQuantity": {
+          "value": 85,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        }
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197392457",
+    "meta": {
+      "versionId": "1-197392456",
+      "lastUpdated": "2020-11-16T18:00:51.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Vital Signs</p><p><b>Code</b>: Height/Length Measured</p><p><b>Result</b>: 172 cm</p><p><b>Date</b>: Nov 16, 2020  5:59 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    },
+    "code": {
+      "coding": [
+        { "system": "http://loinc.org", "code": "8302-2" },
+        { "system": "http://loinc.org", "code": "3137-7" }
+      ],
+      "text": "Height/Length Measured"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2020-11-16T17:59:00.000Z",
+    "issued": "2020-11-16T18:00:51.000Z",
+    "valueQuantity": {
+      "value": 172,
+      "unit": "cm",
+      "system": "http://unitsofmeasure.org",
+      "code": "cm"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "BP-197392471-197392473",
+    "meta": {
+      "versionId": "1-197392470-1-197392472",
+      "lastUpdated": "2020-11-16T18:01:28.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Vital Signs</p><p><b>Code</b>: Systolic Blood Pressure: Systolic Blood Pressure Diastolic Blood Pressure: Diastolic Blood Pressure</p><p><b>Result</b>: Systolic Blood Pressure: 160 mmHg Diastolic Blood Pressure: 95 mmHg</p><p><b>Risk Level</b>: HI</p><p><b>Date</b>: Nov 16, 2020  5:59 P.M. UTC</p><p><b>Risk Level Detail</b>: Systolic Blood Pressure: 90 mmHg-140 mmHg Diastolic Blood Pressure: 60 mmHg-90 mmHg</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "75367002",
+          "display": "Blood pressure (observable entity)"
+        },
+        { "system": "http://loinc.org", "code": "55284-4" }
+      ],
+      "text": "Blood pressure"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2020-11-16T17:59:00.000Z",
+    "issued": "2020-11-16T18:01:28.000Z",
+    "interpretation": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v2/0078",
+          "code": "H",
+          "display": "Above high normal"
+        }
+      ],
+      "text": "HI"
+    },
+    "component": [
+      {
+        "code": {
+          "coding": [{ "system": "http://loinc.org", "code": "8480-6" }],
+          "text": "Systolic Blood Pressure"
+        },
+        "valueQuantity": {
+          "value": 160,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 90,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            },
+            "high": {
+              "value": 140,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            },
+            "text": "90 mmHg-140 mmHg"
+          }
+        ]
+      },
+      {
+        "code": {
+          "coding": [{ "system": "http://loinc.org", "code": "8462-4" }],
+          "text": "Diastolic Blood Pressure"
+        },
+        "valueQuantity": {
+          "value": 95,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            },
+            "high": {
+              "value": 90,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            },
+            "text": "60 mmHg-90 mmHg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197392405",
+    "meta": {
+      "versionId": "5-198525567",
+      "lastUpdated": "2022-07-20T15:40:17.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Amended</p><p><b>Category</b>: Laboratory</p><p><b>Code</b>: HDL</p><p><b>Result</b>: 65 mg/dL</p><p><b>Risk Level</b>: Normal (applies to non-numeric results)</p><p><b>Date</b>: Nov 16, 2020  5:00 P.M. UTC</p><p><b>Risk Level Detail</b>: &gt;=40 mg/dL</p></div>"
+    },
+    "status": "amended",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ],
+      "text": "Laboratory"
+    },
+    "code": {
+      "coding": [{ "system": "http://loinc.org", "code": "2085-9" }],
+      "text": "HDL"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2020-11-16T17:00:00.000Z",
+    "issued": "2022-07-20T15:40:14.000Z",
+    "valueQuantity": {
+      "value": 65,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    },
+    "interpretation": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v2/0078",
+          "code": "N",
+          "display": "Normal (applies to non-numeric results)"
+        }
+      ]
+    },
+    "comments": "Reference range changed due to change in patient's sex at JUL/20/22 05:41:19.  Normal Low changed from 40 to 50.  Result flag not changed.   Reference range changed due to change in patient's sex at JUL/20/22 05:42:16.  Normal Low changed from 50 to 40.  Result flag not changed.   Reference range changed due to change in patient's sex at JUL/20/22 10:39:42.  Normal Low changed from 40 to 50.  Result flag not changed.   Reference range changed due to change in patient's sex at JUL/20/22 10:40:13.  Normal Low changed from 50 to 40.  Result flag not changed.",
+    "referenceRange": [{ "text": ">=40 mg/dL" }]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197392453",
+    "meta": {
+      "versionId": "1-197392452",
+      "lastUpdated": "2020-11-16T17:59:24.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Vital Signs</p><p><b>Code</b>: Height/Length Measured</p><p><b>Result</b>: 170 cm</p><p><b>Date</b>: Nov  1, 2020  5:52 P.M. UTC</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    },
+    "code": {
+      "coding": [
+        { "system": "http://loinc.org", "code": "8302-2" },
+        { "system": "http://loinc.org", "code": "3137-7" }
+      ],
+      "text": "Height/Length Measured"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2020-11-01T17:52:00.000Z",
+    "issued": "2020-11-16T17:59:24.000Z",
+    "valueQuantity": {
+      "value": 170,
+      "unit": "cm",
+      "system": "http://unitsofmeasure.org",
+      "code": "cm"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "BP-197392443-197392445",
+    "meta": {
+      "versionId": "1-197392442-1-197392444",
+      "lastUpdated": "2020-11-16T17:59:24.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Final</p><p><b>Category</b>: Vital Signs</p><p><b>Code</b>: Systolic Blood Pressure: Systolic Blood Pressure Diastolic Blood Pressure: Diastolic Blood Pressure</p><p><b>Result</b>: Systolic Blood Pressure: 130 mmHg Diastolic Blood Pressure: 70 mmHg</p><p><b>Risk Level</b>: Normal (applies to non-numeric results)</p><p><b>Date</b>: Nov  1, 2020  5:52 P.M. UTC</p><p><b>Risk Level Detail</b>: Systolic Blood Pressure: 90 mmHg-140 mmHg Diastolic Blood Pressure: 60 mmHg-90 mmHg</p></div>"
+    },
+    "status": "final",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Vital Signs"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "75367002",
+          "display": "Blood pressure (observable entity)"
+        },
+        { "system": "http://loinc.org", "code": "55284-4" }
+      ],
+      "text": "Blood pressure"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2020-11-01T17:52:00.000Z",
+    "issued": "2020-11-16T17:59:24.000Z",
+    "interpretation": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v2/0078",
+          "code": "N",
+          "display": "Normal (applies to non-numeric results)"
+        }
+      ]
+    },
+    "component": [
+      {
+        "code": {
+          "coding": [{ "system": "http://loinc.org", "code": "8480-6" }],
+          "text": "Systolic Blood Pressure"
+        },
+        "valueQuantity": {
+          "value": 130,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 90,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            },
+            "high": {
+              "value": 140,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            },
+            "text": "90 mmHg-140 mmHg"
+          }
+        ]
+      },
+      {
+        "code": {
+          "coding": [{ "system": "http://loinc.org", "code": "8462-4" }],
+          "text": "Diastolic Blood Pressure"
+        },
+        "valueQuantity": {
+          "value": 70,
+          "unit": "mmHg",
+          "system": "http://unitsofmeasure.org",
+          "code": "mm[Hg]"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 60,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            },
+            "high": {
+              "value": 90,
+              "unit": "mmHg",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm[Hg]"
+            },
+            "text": "60 mmHg-90 mmHg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Observation",
+    "id": "M197392325",
+    "meta": {
+      "versionId": "5-198525582",
+      "lastUpdated": "2022-07-20T15:40:23.000Z"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div><p><b>Observation</b></p><p><b>Patient</b>: 12742400</p><p><b>Status</b>: Amended</p><p><b>Category</b>: Laboratory</p><p><b>Code</b>: HDL</p><p><b>Result</b>: 25 mg/dL</p><p><b>Risk Level</b>: LOW</p><p><b>Date</b>: Nov  1, 2020  5:02 P.M. UTC</p><p><b>Risk Level Detail</b>: &gt;=40 mg/dL</p></div>"
+    },
+    "status": "amended",
+    "category": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        }
+      ],
+      "text": "Laboratory"
+    },
+    "code": {
+      "coding": [{ "system": "http://loinc.org", "code": "2085-9" }],
+      "text": "HDL"
+    },
+    "subject": { "reference": "Patient/12742400" },
+    "encounter": { "reference": "Encounter/97953530" },
+    "effectiveDateTime": "2020-11-01T17:02:00.000Z",
+    "issued": "2022-07-20T15:40:14.000Z",
+    "valueQuantity": {
+      "value": 25,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    },
+    "interpretation": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v2/0078",
+          "code": "L",
+          "display": "Below low normal"
+        }
+      ],
+      "text": "LOW"
+    },
+    "comments": "Reference range changed due to change in patient's sex at JUL/20/22 05:41:26.  Normal Low changed from 40 to 50.  Result flag not changed.   Reference range changed due to change in patient's sex at JUL/20/22 05:42:17.  Normal Low changed from 50 to 40.  Result flag not changed.   Reference range changed due to change in patient's sex at JUL/20/22 10:39:43.  Normal Low changed from 40 to 50.  Result flag not changed.   Reference range changed due to change in patient's sex at JUL/20/22 10:40:14.  Normal Low changed from 50 to 40.  Result flag not changed.",
+    "referenceRange": [{ "text": ">=40 mg/dL" }]
+  }
+]
