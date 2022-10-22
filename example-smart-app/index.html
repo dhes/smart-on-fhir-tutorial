@@ -20,7 +20,7 @@
 		);
 
 		// Fetch details of patient:
-		const ptDetails = client.request("/Patient/=" + client.patient.id);
+		const ptDetails = client.request("/Patient/" + client.patient.id);
 		console.log(ptDetails);
 
 		// Get MedicationRequests for the selected patient
