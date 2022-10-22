@@ -1,7 +1,8 @@
 <!-- index.html -->
 <!-- from http://docs.smarthealthit.org/client-js/ -->
-
-<script src="./node_module/fhirclient/build/fhir-client.js"></script>
+<!DOCTYPE html>
+<!-- <script src="./node_module/fhirclient/build/fhir-client.js"></script> -->
+<script src='./lib/js/fhir-client-v2.0.7.js'></script>
 <script>
 FHIR.oauth2.ready()
     .then(client => client.request("Patient"))
