@@ -4,8 +4,5 @@
 <!-- or -->
 <script src='https://cdn.jsdelivr.net/npm/fhirclient@2.0.7/build/fhir-client.js'></script>
 <script>
-FHIR.oauth2.ready()
-    .then(client => client.request("Patient"))
-    .then(console.log)
-    .catch(console.error);
+	FHIR.oauth2.ready().then(client => client.request("Patient")).then(console.log).catch(console.error);
 </script>
