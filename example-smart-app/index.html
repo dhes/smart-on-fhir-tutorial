@@ -10,7 +10,7 @@
 
 		// Render the current patient (or any error)
 		client.patient.read().then(
-			console.log(client.patient)
+			console.log(client.patient.id)
 			// function (pt) {
 			// 	document.getElementById("patient").innerText = JSON.stringify(pt, null, 4);
 			// },
@@ -21,7 +21,8 @@
 
 		// Fetch details of patient:
 		const ptDetails = client.request("/Patient/" + client.patient.id);
-		console.log(JSON.stringify(ptDetails));
+		console.log(client.patient.id)
+		console.log(ptDetails);
 
 		// Get MedicationRequests for the selected patient
 		// client.request("/MedicationRequest?patient=" + client.patient.id, {
