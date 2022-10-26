@@ -1,0 +1,1856 @@
+{
+	"resourceType": "Patient",
+	"id": "12742400",
+	"meta": {
+		"versionId": "60",
+		"lastUpdated": "2022-07-20T15:41:20.000Z"
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Patient</b></p><p><b>Name</b>: PETERS, TIM A</p><p><b>Status</b>: Active</p><p><b>DOB</b>: Mar  8, 2001</p><p><b>Administrative Gender</b>: Male</p><p><b>Marital Status</b>: Single</p></div>"
+	},
+	"extension": [
+		{
+			"extension": [
+				{
+					"valueCoding": {
+						"system": "urn:oid:2.16.840.1.113883.6.238",
+						"code": "2106-3",
+						"display": "White",
+						"userSelected": false
+					},
+					"url": "ombCategory"
+				},
+				{
+					"valueString": "White",
+					"url": "text"
+				}
+			],
+			"url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+		},
+		{
+			"extension": [
+				{
+					"valueCoding": {
+						"system": "urn:oid:2.16.840.1.113883.6.238",
+						"code": "2135-2",
+						"display": "Hispanic or Latino",
+						"userSelected": false
+					},
+					"url": "ombCategory"
+				},
+				{
+					"valueString": "Hispanic, Latino, or Spanish Origin",
+					"url": "text"
+				}
+			],
+			"url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+		}
+	],
+	"identifier": [
+		{
+			"id": "CI-490117329-0",
+			"use": "usual",
+			"type": {
+				"coding": [
+					{
+						"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+						"code": "2",
+						"display": "Community Medical Record Number",
+						"userSelected": true
+					},
+					{
+						"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+						"code": "MR",
+						"display": "Medical record number",
+						"userSelected": false
+					}
+				],
+				"text": "Community Medical Record Number"
+			},
+			"system": "urn:oid:2.16.840.1.113883.3.787.0.0",
+			"value": "9006144000",
+			"_value": {
+				"extension": [
+					{
+						"valueString": "9006144000",
+						"url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+					}
+				]
+			}
+		},
+		{
+			"id": "CI-490052523-1",
+			"use": "usual",
+			"type": {
+				"coding": [
+					{
+						"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+						"code": "10",
+						"display": "MRN",
+						"userSelected": true
+					},
+					{
+						"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+						"code": "MR",
+						"display": "Medical record number",
+						"userSelected": false
+					}
+				],
+				"text": "MRN"
+			},
+			"system": "urn:oid:2.16.840.1.113883.6.1000",
+			"value": "490052523",
+			"_value": {
+				"extension": [
+					{
+						"valueString": "00490052523",
+						"url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+					}
+				]
+			},
+			"period": {
+				"start": "2019-12-26T15:17:05.000Z"
+			}
+		},
+		{
+			"id": "CI-490068437-3",
+			"use": "usual",
+			"type": {
+				"coding": [
+					{
+						"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+						"code": "22",
+						"display": "Military Id",
+						"userSelected": true
+					}
+				],
+				"text": "Military Id"
+			},
+			"system": "urn:oid:2.16.840.1.113883.3.42.10001.100001.12",
+			"value": "1005007028",
+			"_value": {
+				"extension": [
+					{
+						"valueString": "1005007028",
+						"url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+					}
+				]
+			},
+			"period": {
+				"start": "2020-08-10T16:43:27.000Z"
+			}
+		},
+		{
+			"id": "CI-490060074-4",
+			"use": "usual",
+			"type": {
+				"coding": [
+					{
+						"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+						"code": "670843",
+						"display": "Messaging",
+						"userSelected": true
+					},
+					{
+						"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+						"code": "U",
+						"display": "Unspecified identifier",
+						"userSelected": false
+					}
+				],
+				"text": "Messaging"
+			},
+			"system": "urn:oid:2.16.840.1.113883.3.13.8",
+			"value": "F9F53787ABE84CACB45D61AD39AF0549",
+			"_value": {
+				"extension": [
+					{
+						"valueString": "F9F53787ABE84CACB45D61AD39AF0549",
+						"url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+					}
+				]
+			},
+			"period": {
+				"start": "2020-07-09T14:11:59.000Z"
+			}
+		},
+		{
+			"id": "CI-490068491-5",
+			"use": "usual",
+			"type": {
+				"coding": [
+					{
+						"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+						"code": "2553236771",
+						"display": "Federated Person Principal",
+						"userSelected": true
+					},
+					{
+						"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+						"code": "AN",
+						"display": "Account number",
+						"userSelected": false
+					}
+				],
+				"text": "Federated Person Principal"
+			},
+			"system": "urn:oid:2.16.840.1.113883.3.13.6",
+			"value": "URN:CERNER:IDENTITY-FEDERATION:REALM:EC2458F2-1E24-41C8-B71B-0E701AF7583D-CH:PRINCIPAL:8B5T66NS92U6WG6R",
+			"_value": {
+				"extension": [
+					{
+						"valueString": "URN:CERNER:IDENTITY-FEDERATION:REALM:EC2458F2-1E24-41C8-B71B-0E701AF7583D-CH:PRINCIPAL:8B5T66NS92U6WG6R",
+						"url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+					}
+				]
+			},
+			"period": {
+				"start": "2020-08-10T17:01:45.000Z"
+			}
+		},
+		{
+			"id": "CI-490060070-6",
+			"use": "usual",
+			"type": {
+				"coding": [
+					{
+						"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+						"code": "2553236771",
+						"display": "Federated Person Principal",
+						"userSelected": true
+					},
+					{
+						"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+						"code": "AN",
+						"display": "Account number",
+						"userSelected": false
+					}
+				],
+				"text": "Federated Person Principal"
+			},
+			"system": "urn:oid:2.16.840.1.113883.3.13.6",
+			"value": "URN:CERNER:IDENTITY-FEDERATION:REALM:E8A84236-C258-4952-98B7-A6FF8A9C587A-CH:PRINCIPAL:8B5T66NS92U6WG6R",
+			"_value": {
+				"extension": [
+					{
+						"valueString": "URN:CERNER:IDENTITY-FEDERATION:REALM:E8A84236-C258-4952-98B7-A6FF8A9C587A-CH:PRINCIPAL:8B5T66NS92U6WG6R",
+						"url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+					}
+				]
+			},
+			"period": {
+				"start": "2020-07-09T14:11:57.000Z"
+			}
+		},
+		{
+			"id": "CI-490154914-7",
+			"use": "usual",
+			"type": {
+				"coding": [
+					{
+						"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+						"code": "2553236785",
+						"display": "MIllennium Person Identifier",
+						"userSelected": true
+					}
+				],
+				"text": "MIllennium Person Identifier"
+			},
+			"_system": {
+				"extension": [
+					{
+						"valueCode": "unknown",
+						"url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+					}
+				]
+			},
+			"value": "13429",
+			"_value": {
+				"extension": [
+					{
+						"valueString": "13429",
+						"url": "http://hl7.org/fhir/StructureDefinition/rendered-value"
+					}
+				]
+			},
+			"period": {
+				"start": "2020-12-18T19:15:13.000Z"
+			}
+		}
+	],
+	"active": true,
+	"name": [
+		{
+			"id": "CI-12742400-0",
+			"use": "official",
+			"text": "PETERS, TIM A",
+			"family": "PETERS",
+			"given": [
+				"TIM",
+				"A"
+			],
+			"period": {
+				"start": "2019-12-26T15:17:05.000Z"
+			}
+		}
+	],
+	"telecom": [
+		{
+			"id": "CI-PH-29822534-0",
+			"extension": [
+				{
+					"valueUrl": "816-888-8886",
+					"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+				}
+			],
+			"system": "phone",
+			"value": "816-888-8886",
+			"use": "home",
+			"rank": 1,
+			"period": {
+				"start": "2019-12-26T15:17:05.000Z"
+			}
+		},
+		{
+			"id": "CI-PH-29863131-1",
+			"extension": [
+				{
+					"valueUrl": "(432)212-5342",
+					"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+				}
+			],
+			"system": "phone",
+			"value": "(432) 212-5342",
+			"use": "home",
+			"rank": 2
+		},
+		{
+			"id": "CI-PH-29863129-2",
+			"extension": [
+				{
+					"valueUrl": "816-888-8886",
+					"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+				}
+			],
+			"system": "phone",
+			"value": "816-888-8886",
+			"use": "mobile",
+			"rank": 1
+		},
+		{
+			"id": "CI-PH-29865054-3",
+			"extension": [
+				{
+					"valueUrl": "81688888899",
+					"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+				}
+			],
+			"system": "phone",
+			"value": "81688888899",
+			"use": "mobile",
+			"rank": 2
+		},
+		{
+			"id": "CI-PH-29865056-4",
+			"extension": [
+				{
+					"valueUrl": "81688888899",
+					"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+				}
+			],
+			"system": "phone",
+			"value": "81688888899",
+			"use": "mobile",
+			"rank": 3
+		},
+		{
+			"id": "CI-PH-29854961-5",
+			"extension": [
+				{
+					"valueUrl": "8168888886",
+					"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+				}
+			],
+			"system": "phone",
+			"value": "8168888886",
+			"use": "mobile",
+			"rank": 4,
+			"period": {
+				"start": "2021-04-05T12:05:33.000Z"
+			}
+		},
+		{
+			"id": "CI-PH-29865058-6",
+			"extension": [
+				{
+					"valueUrl": "8168888886",
+					"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+				}
+			],
+			"system": "phone",
+			"value": "8168888886",
+			"use": "mobile",
+			"rank": 5
+		},
+		{
+			"id": "CI-EM-29822920-0",
+			"system": "email",
+			"value": "timpeters@yopmail.com",
+			"use": "home",
+			"rank": 1,
+			"period": {
+				"start": "2020-07-09T14:10:08.000Z"
+			}
+		},
+		{
+			"id": "CI-EM-29863133-1",
+			"system": "email",
+			"value": "timpeters@yopmail.com",
+			"use": "home",
+			"rank": 2
+		},
+		{
+			"id": "CI-EM-29865060-2",
+			"system": "email",
+			"value": "timpeters@yopmail.com",
+			"use": "home",
+			"rank": 3
+		}
+	],
+	"gender": "male",
+	"birthDate": "2001-03-08",
+	"deceasedBoolean": false,
+	"address": [
+		{
+			"id": "CI-24326104-0",
+			"use": "home",
+			"text": "12345 MAIN ST\nKANSAS CITY, MO 64116\nUS",
+			"line": [
+				"12345 MAIN ST"
+			],
+			"city": "KANSAS CITY",
+			"district": "Jackson",
+			"state": "MO",
+			"postalCode": "64116",
+			"country": "US",
+			"period": {
+				"start": "2019-12-26T15:16:36.000Z"
+			}
+		},
+		{
+			"id": "CI-24363337-1",
+			"use": "home",
+			"text": "Astoria Blvd\n#123\n\nUnited States of America",
+			"line": [
+				"Astoria Blvd",
+				"#123"
+			],
+			"country": "United States of America"
+		}
+	],
+	"maritalStatus": {
+		"coding": [
+			{
+				"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/38",
+				"code": "309239",
+				"display": "Single",
+				"userSelected": true
+			},
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+				"code": "S",
+				"display": "Never Married",
+				"userSelected": false
+			}
+		],
+		"text": "Single"
+	},
+	"contact": [
+		{
+			"relationship": [
+				{
+					"coding": [
+						{
+							"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/351",
+							"code": "1152",
+							"display": "Emergency Contact",
+							"userSelected": true
+						},
+						{
+							"system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+							"code": "C",
+							"display": "Emergency Contact",
+							"userSelected": false
+						}
+					],
+					"text": "Emergency Contact"
+				}
+			],
+			"name": {
+				"id": "CI-12742692-0",
+				"use": "official",
+				"text": "PETERS, AMANDA",
+				"family": "PETERS",
+				"given": [
+					"AMANDA"
+				],
+				"period": {
+					"start": "2020-07-14T19:42:16.000Z"
+				}
+			},
+			"telecom": [
+				{
+					"extension": [
+						{
+							"valueUrl": "(778)364-8232",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "7783648232",
+					"use": "home",
+					"rank": 1,
+					"period": {
+						"start": "2020-07-14T19:42:16.000Z"
+					}
+				}
+			],
+			"period": {
+				"start": "2020-07-14T19:42:16.000Z"
+			}
+		},
+		{
+			"relationship": [
+				{
+					"coding": [
+						{
+							"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/351",
+							"code": "1153",
+							"display": "Family Member",
+							"userSelected": true
+						}
+					],
+					"text": "Family Member"
+				}
+			],
+			"name": {
+				"id": "CI-12724066-1",
+				"use": "official",
+				"text": "SMART, NANCYU NHA EEEEEE",
+				"family": "SMART",
+				"given": [
+					"NANCYU",
+					"NHA EEEEEE"
+				],
+				"period": {
+					"start": "2019-12-26T15:12:34.000Z"
+				}
+			},
+			"telecom": [
+				{
+					"extension": [
+						{
+							"valueUrl": "(226)868-9388",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "2268689388",
+					"use": "home",
+					"rank": 1,
+					"period": {
+						"start": "2021-07-15T14:41:28.000Z"
+					}
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "(515)555-6789",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "(515) 555-6789",
+					"use": "home",
+					"rank": 2
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "(432)467-8767",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "(432) 467-8767",
+					"use": "home",
+					"rank": 3
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "(987)654-3210",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "9876543210",
+					"use": "home",
+					"rank": 4,
+					"period": {
+						"start": "2019-12-26T15:12:34.000Z"
+					}
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "9788696552",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						},
+						{
+							"valueString": "9788696552",
+							"url": "http://hl7.org/fhir/StructureDefinition/contactpoint-extension"
+						}
+					],
+					"system": "phone",
+					"value": "9788696552",
+					"use": "home",
+					"rank": 5,
+					"period": {
+						"start": "2022-02-03T16:21:14.000Z"
+					}
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "9788696588",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						},
+						{
+							"valueString": "9788696588",
+							"url": "http://hl7.org/fhir/StructureDefinition/contactpoint-extension"
+						}
+					],
+					"system": "phone",
+					"value": "9788696588",
+					"use": "home",
+					"rank": 6,
+					"period": {
+						"start": "2022-02-03T16:21:14.000Z"
+					}
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "9788696599",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						},
+						{
+							"valueString": "9788696599",
+							"url": "http://hl7.org/fhir/StructureDefinition/contactpoint-extension"
+						}
+					],
+					"system": "phone",
+					"value": "9788696599",
+					"use": "home",
+					"rank": 7,
+					"period": {
+						"start": "2022-02-03T16:21:14.000Z"
+					}
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "8168229121",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						},
+						{
+							"valueString": "12345",
+							"url": "http://hl7.org/fhir/StructureDefinition/contactpoint-extension"
+						}
+					],
+					"system": "phone",
+					"value": "8168229121",
+					"use": "home",
+					"rank": 8,
+					"period": {
+						"start": "2022-05-17T15:33:18.000Z"
+					}
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "(226)868-9388",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "2268689388",
+					"use": "mobile",
+					"rank": 1,
+					"period": {
+						"start": "2021-01-25T05:00:00.000Z"
+					}
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 2
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 3
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 4
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 5
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 6
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 7
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 8
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 9
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 10
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 11
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 12
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 13
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 14
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 15
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 16
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 17
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 18
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 19
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 20
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 21
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 22
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 23
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 24
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 25
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 26
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 27
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 28
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 29
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 30
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 31
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 32
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 33
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 34
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 35
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 36
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 37
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 38
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 39
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 40
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 41
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 42
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 43
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 44
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 45
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 46
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 47
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5012889406",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5012889406",
+					"use": "mobile",
+					"rank": 48
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 49
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 50
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 51
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 52
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "(515)555-6789",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "(515) 555-6789",
+					"use": "mobile",
+					"rank": 53
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 54
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 55
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 56
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 57
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 58,
+					"period": {
+						"start": "2021-01-25T05:00:00.000Z"
+					}
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 59,
+					"period": {
+						"start": "2021-01-25T05:00:00.000Z"
+					}
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 60,
+					"period": {
+						"start": "2021-01-25T05:00:00.000Z"
+					}
+				},
+				{
+					"extension": [
+						{
+							"valueUrl": "5034008675",
+							"url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+						}
+					],
+					"system": "phone",
+					"value": "5034008675",
+					"use": "mobile",
+					"rank": 61,
+					"period": {
+						"start": "2021-01-25T00:33:18.000Z"
+					}
+				},
+				{
+					"system": "email",
+					"value": "robert.b@qure4u.com",
+					"use": "home",
+					"rank": 1
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 2
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 3
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 4
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 5
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 6
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 7,
+					"period": {
+						"start": "2020-06-30T19:47:10.000Z"
+					}
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 8
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 9
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 10
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 11
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 12
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 13
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 14
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 15
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 16
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 17
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 18
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 19
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 20
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 21
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 22
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 23
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 24
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 25
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 26
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 27
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 28
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 29
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 30
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 31
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 32
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 33
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 34
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 35
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 36
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 37
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 38
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 39
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 40
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 41
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 42
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 43
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 44
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 45
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 46
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 47
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 48
+				},
+				{
+					"system": "email",
+					"value": "cerner@asdf.com",
+					"use": "home",
+					"rank": 49
+				},
+				{
+					"system": "email",
+					"value": "simon@healthnote.com",
+					"use": "home",
+					"rank": 50
+				},
+				{
+					"system": "email",
+					"value": "aaaworkemail@gmail.com",
+					"use": "home",
+					"rank": 51
+				},
+				{
+					"system": "email",
+					"value": "workemail@gmail.com",
+					"use": "home",
+					"rank": 52
+				},
+				{
+					"system": "email",
+					"value": "workemail@gmail.com",
+					"use": "home",
+					"rank": 53
+				},
+				{
+					"system": "email",
+					"value": "workemail@gmail.com",
+					"use": "home",
+					"rank": 54
+				},
+				{
+					"system": "email",
+					"value": "none",
+					"use": "home",
+					"rank": 55
+				},
+				{
+					"system": "email",
+					"value": "workemail@gmail.com",
+					"use": "home",
+					"rank": 56
+				},
+				{
+					"system": "email",
+					"value": "workemail@gmail.com",
+					"use": "home",
+					"rank": 57
+				},
+				{
+					"system": "email",
+					"value": "workemail@gmail.com",
+					"use": "home",
+					"rank": 58
+				},
+				{
+					"system": "email",
+					"value": "workemail@gmail.com",
+					"use": "home",
+					"rank": 59
+				},
+				{
+					"system": "email",
+					"value": "VADAKKUMALAI@YOSICARE.COM",
+					"use": "home",
+					"rank": 60,
+					"period": {
+						"start": "2021-09-01T05:27:11.000Z"
+					}
+				},
+				{
+					"system": "email",
+					"value": "test55@getnada.com",
+					"use": "home",
+					"rank": 61
+				}
+			],
+			"address": {
+				"use": "home",
+				"text": "12 NEW ADDRESS HAHAH 4RLP\nSCHENECTADY, NY 34205\nUS",
+				"line": [
+					"12 NEW ADDRESS HAHAH 4RLP"
+				],
+				"city": "SCHENECTADY",
+				"district": "Jackson",
+				"state": "NY",
+				"postalCode": "34205",
+				"country": "US",
+				"period": {
+					"start": "2021-09-02T11:44:30.000Z"
+				}
+			},
+			"gender": "female",
+			"period": {
+				"start": "2019-12-26T16:09:36.000Z"
+			}
+		}
+	],
+	"communication": [
+		{
+			"language": {
+				"coding": [
+					{
+						"system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/36",
+						"code": "151",
+						"display": "English",
+						"userSelected": true
+					},
+					{
+						"system": "urn:ietf:bcp:47",
+						"code": "en",
+						"display": "English",
+						"userSelected": false
+					}
+				],
+				"text": "English"
+			},
+			"preferred": true
+		}
+	],
+	"generalPractitioner": [
+		{
+			"id": "CI-490136592-1",
+			"reference": "Practitioner/12744688",
+			"display": "PWDentrix, Dentalprofessional"
+		},
+		{
+			"id": "CI-490052572-2",
+			"reference": "Practitioner/4122622",
+			"display": "Cerner Test, Physician - Hospitalist Cerner"
+		}
+	]
+}

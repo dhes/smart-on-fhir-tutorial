@@ -1,0 +1,557 @@
+{
+  "resourceType": "Patient",
+  "id": "12742400",
+  "meta": { "versionId": "60", "lastUpdated": "2022-07-20T15:41:20.000Z" },
+  "text": {
+    "status": "generated",
+    "div": "<div><p><b>Patient</b></p><p><b>Name</b>: PETERS, TIM A</p><p><b>DOB</b>: Mar  8, 2001</p><p><b>Administrative Gender</b>: Male</p><p><b>Marital Status</b>: Single</p><p><b>Status</b>: Active</p></div>"
+  },
+  "extension": [
+    {
+      "url": "http://fhir.org/guides/argonaut/StructureDefinition/argo-race",
+      "extension": [
+        {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/v3/Race",
+            "code": "2106-3",
+            "display": "White",
+            "userSelected": false
+          }
+        },
+        { "url": "text", "valueString": "White" }
+      ]
+    },
+    {
+      "url": "http://fhir.org/guides/argonaut/StructureDefinition/argo-ethnicity",
+      "extension": [
+        {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "http://hl7.org/fhir/v3/Ethnicity",
+            "code": "2135-2",
+            "display": "Hispanic or Latino",
+            "userSelected": false
+          }
+        },
+        { "url": "text", "valueString": "Hispanic, Latino, or Spanish Origin" }
+      ]
+    }
+  ],
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "MR",
+            "display": "Medical record number",
+            "userSelected": false
+          }
+        ],
+        "text": "Community Medical Record Number"
+      },
+      "system": "urn:oid:2.16.840.1.113883.3.787.0.0",
+      "value": "9006144000",
+      "_value": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value",
+            "valueString": "9006144000"
+          }
+        ]
+      }
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "MR",
+            "display": "Medical record number",
+            "userSelected": false
+          }
+        ],
+        "text": "MRN"
+      },
+      "system": "urn:oid:2.16.840.1.113883.6.1000",
+      "value": "490052523",
+      "_value": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value",
+            "valueString": "00490052523"
+          }
+        ]
+      },
+      "period": { "start": "2019-12-26T15:17:05.000Z" }
+    },
+    {
+      "use": "usual",
+      "type": { "text": "Military Id" },
+      "system": "urn:oid:2.16.840.1.113883.3.42.10001.100001.12",
+      "value": "1005007028",
+      "_value": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value",
+            "valueString": "1005007028"
+          }
+        ]
+      },
+      "period": { "start": "2020-08-10T16:43:27.000Z" }
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "U",
+            "display": "Unspecified identifier",
+            "userSelected": false
+          }
+        ],
+        "text": "Messaging"
+      },
+      "system": "urn:oid:2.16.840.1.113883.3.13.8",
+      "value": "F9F53787ABE84CACB45D61AD39AF0549",
+      "_value": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value",
+            "valueString": "F9F53787ABE84CACB45D61AD39AF0549"
+          }
+        ]
+      },
+      "period": { "start": "2020-07-09T14:11:59.000Z" }
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "AN",
+            "display": "Account number",
+            "userSelected": false
+          }
+        ],
+        "text": "Federated Person Principal"
+      },
+      "system": "urn:oid:2.16.840.1.113883.3.13.6",
+      "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:EC2458F2-1E24-41C8-B71B-0E701AF7583D-CH:PRINCIPAL:8B5T66NS92U6WG6R",
+      "_value": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value",
+            "valueString": "URN:CERNER:IDENTITY-FEDERATION:REALM:EC2458F2-1E24-41C8-B71B-0E701AF7583D-CH:PRINCIPAL:8B5T66NS92U6WG6R"
+          }
+        ]
+      },
+      "period": { "start": "2020-08-10T17:01:45.000Z" }
+    },
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "AN",
+            "display": "Account number",
+            "userSelected": false
+          }
+        ],
+        "text": "Federated Person Principal"
+      },
+      "system": "urn:oid:2.16.840.1.113883.3.13.6",
+      "value": "URN:CERNER:IDENTITY-FEDERATION:REALM:E8A84236-C258-4952-98B7-A6FF8A9C587A-CH:PRINCIPAL:8B5T66NS92U6WG6R",
+      "_value": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value",
+            "valueString": "URN:CERNER:IDENTITY-FEDERATION:REALM:E8A84236-C258-4952-98B7-A6FF8A9C587A-CH:PRINCIPAL:8B5T66NS92U6WG6R"
+          }
+        ]
+      },
+      "period": { "start": "2020-07-09T14:11:57.000Z" }
+    },
+    {
+      "use": "usual",
+      "type": { "text": "MIllennium Person Identifier" },
+      "value": "13429",
+      "_value": {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/rendered-value",
+            "valueString": "13429"
+          }
+        ]
+      },
+      "period": { "start": "2020-12-18T19:15:13.000Z" }
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "use": "official",
+      "text": "PETERS, TIM A",
+      "family": ["PETERS"],
+      "given": ["TIM", "A"],
+      "period": { "start": "2019-12-26T15:17:05.000Z" }
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "816-888-8886",
+      "use": "home",
+      "period": { "start": "2019-12-26T15:17:05.000Z" }
+    },
+    { "system": "phone", "value": "(432) 212-5342", "use": "home" },
+    { "system": "phone", "value": "816-888-8886", "use": "mobile" },
+    { "system": "phone", "value": "81688888899", "use": "mobile" },
+    { "system": "phone", "value": "81688888899", "use": "mobile" },
+    {
+      "system": "phone",
+      "value": "8168888886",
+      "use": "mobile",
+      "period": { "start": "2021-04-05T12:05:33.000Z" }
+    },
+    { "system": "phone", "value": "8168888886", "use": "mobile" },
+    {
+      "system": "email",
+      "value": "timpeters@yopmail.com",
+      "use": "home",
+      "period": { "start": "2020-07-09T14:10:08.000Z" }
+    },
+    { "system": "email", "value": "timpeters@yopmail.com", "use": "home" },
+    { "system": "email", "value": "timpeters@yopmail.com", "use": "home" }
+  ],
+  "gender": "male",
+  "birthDate": "2001-03-08",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "use": "home",
+      "text": "12345 MAIN ST\nKANSAS CITY, MO 64116\nUS",
+      "line": ["12345 MAIN ST"],
+      "city": "KANSAS CITY",
+      "district": "Jackson",
+      "state": "MO",
+      "postalCode": "64116",
+      "country": "US",
+      "period": { "start": "2019-12-26T15:16:36.000Z" }
+    },
+    {
+      "use": "home",
+      "text": "Astoria Blvd\n#123\n\nUnited States of America",
+      "line": ["Astoria Blvd", "#123"],
+      "country": "United States of America"
+    }
+  ],
+  "maritalStatus": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v3/MaritalStatus",
+        "code": "S",
+        "display": "Never Married",
+        "userSelected": false
+      }
+    ],
+    "text": "Single"
+  },
+  "contact": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/patient-contact-relationship",
+              "code": "emergency",
+              "display": "Emergency",
+              "userSelected": false
+            }
+          ],
+          "text": "Emergency Contact"
+        }
+      ],
+      "name": {
+        "use": "official",
+        "text": "PETERS, AMANDA",
+        "family": ["PETERS"],
+        "given": ["AMANDA"],
+        "period": { "start": "2020-07-14T19:42:16.000Z" }
+      },
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "7783648232",
+          "use": "home",
+          "period": { "start": "2020-07-14T19:42:16.000Z" }
+        }
+      ],
+      "period": { "start": "2020-07-14T19:42:16.000Z" }
+    },
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/patient-contact-relationship",
+              "code": "family",
+              "display": "Family",
+              "userSelected": false
+            }
+          ],
+          "text": "Family Member"
+        }
+      ],
+      "name": {
+        "use": "official",
+        "text": "SMART, NANCYU NHA EEEEEE",
+        "family": ["SMART"],
+        "given": ["NANCYU", "NHA EEEEEE"],
+        "period": { "start": "2019-12-26T15:12:34.000Z" }
+      },
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "2268689388",
+          "use": "home",
+          "period": { "start": "2021-07-15T14:41:28.000Z" }
+        },
+        { "system": "phone", "value": "(515) 555-6789", "use": "home" },
+        { "system": "phone", "value": "(432) 467-8767", "use": "home" },
+        {
+          "system": "phone",
+          "value": "9876543210",
+          "use": "home",
+          "period": { "start": "2019-12-26T15:12:34.000Z" }
+        },
+        {
+          "system": "phone",
+          "value": "9788696552",
+          "use": "home",
+          "period": { "start": "2022-02-03T16:21:14.000Z" }
+        },
+        {
+          "system": "phone",
+          "value": "9788696588",
+          "use": "home",
+          "period": { "start": "2022-02-03T16:21:14.000Z" }
+        },
+        {
+          "system": "phone",
+          "value": "9788696599",
+          "use": "home",
+          "period": { "start": "2022-02-03T16:21:14.000Z" }
+        },
+        {
+          "system": "phone",
+          "value": "8168229121",
+          "use": "home",
+          "period": { "start": "2022-05-17T15:33:18.000Z" }
+        },
+        {
+          "system": "phone",
+          "value": "2268689388",
+          "use": "mobile",
+          "period": { "start": "2021-01-25T05:00:00.000Z" }
+        },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5012889406", "use": "mobile" },
+        { "system": "phone", "value": "5034008675", "use": "mobile" },
+        { "system": "phone", "value": "5034008675", "use": "mobile" },
+        { "system": "phone", "value": "5034008675", "use": "mobile" },
+        { "system": "phone", "value": "5034008675", "use": "mobile" },
+        { "system": "phone", "value": "(515) 555-6789", "use": "mobile" },
+        { "system": "phone", "value": "5034008675", "use": "mobile" },
+        { "system": "phone", "value": "5034008675", "use": "mobile" },
+        { "system": "phone", "value": "5034008675", "use": "mobile" },
+        { "system": "phone", "value": "5034008675", "use": "mobile" },
+        {
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "period": { "start": "2021-01-25T05:00:00.000Z" }
+        },
+        {
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "period": { "start": "2021-01-25T05:00:00.000Z" }
+        },
+        {
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "period": { "start": "2021-01-25T05:00:00.000Z" }
+        },
+        {
+          "system": "phone",
+          "value": "5034008675",
+          "use": "mobile",
+          "period": { "start": "2021-01-25T00:33:18.000Z" }
+        },
+        { "system": "email", "value": "robert.b@qure4u.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        {
+          "system": "email",
+          "value": "cerner@asdf.com",
+          "use": "home",
+          "period": { "start": "2020-06-30T19:47:10.000Z" }
+        },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "cerner@asdf.com", "use": "home" },
+        { "system": "email", "value": "simon@healthnote.com", "use": "home" },
+        { "system": "email", "value": "aaaworkemail@gmail.com", "use": "home" },
+        { "system": "email", "value": "workemail@gmail.com", "use": "home" },
+        { "system": "email", "value": "workemail@gmail.com", "use": "home" },
+        { "system": "email", "value": "workemail@gmail.com", "use": "home" },
+        { "system": "email", "value": "none", "use": "home" },
+        { "system": "email", "value": "workemail@gmail.com", "use": "home" },
+        { "system": "email", "value": "workemail@gmail.com", "use": "home" },
+        { "system": "email", "value": "workemail@gmail.com", "use": "home" },
+        { "system": "email", "value": "workemail@gmail.com", "use": "home" },
+        {
+          "system": "email",
+          "value": "VADAKKUMALAI@YOSICARE.COM",
+          "use": "home",
+          "period": { "start": "2021-09-01T05:27:11.000Z" }
+        },
+        { "system": "email", "value": "test55@getnada.com", "use": "home" }
+      ],
+      "address": {
+        "use": "home",
+        "text": "12 NEW ADDRESS HAHAH 4RLP\nSCHENECTADY, NY 34205\nUS",
+        "line": ["12 NEW ADDRESS HAHAH 4RLP"],
+        "city": "SCHENECTADY",
+        "district": "Jackson",
+        "state": "NY",
+        "postalCode": "34205",
+        "country": "US",
+        "period": { "start": "2021-09-02T11:44:30.000Z" }
+      },
+      "gender": "female",
+      "period": { "start": "2019-12-26T16:09:36.000Z" }
+    }
+  ],
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English",
+            "userSelected": false
+          }
+        ],
+        "text": "English"
+      },
+      "preferred": true
+    }
+  ],
+  "careProvider": [
+    {
+      "reference": "Practitioner/12744688",
+      "display": "PWDentrix, Dentalprofessional"
+    },
+    {
+      "reference": "Practitioner/4122622",
+      "display": "Cerner Test, Physician - Hospitalist Cerner"
+    }
+  ]
+}

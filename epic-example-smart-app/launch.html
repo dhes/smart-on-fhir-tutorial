@@ -1,0 +1,14 @@
+<!-- launch.html -->
+<!-- from http://docs.smarthealthit.org/client-js/ -->
+<!DOCTYPE html>
+<!-- <script src="./node_module/fhirclient/build/fhir-client.js"></script> -->
+<!-- <script src="./lib/js/fhir-client-v2.0.7.js"></script> -->
+<!-- or -->
+<script src='https://cdn.jsdelivr.net/npm/fhirclient@2.0.7/build/fhir-client.js'></script>
+<script>
+  FHIR.oauth2.authorize({
+    client_id: "b9085b64-3b43-4a72-877d-f2deeff4b988",
+    scope:
+      "patient/Patient.read patient/Observation.read launch online_access openid profile",
+  });
+</script>
