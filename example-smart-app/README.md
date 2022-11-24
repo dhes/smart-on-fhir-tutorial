@@ -4,4 +4,4 @@ That was with the Cerner sandbox set at DSTU2. When I bumped it up to R4 the san
 
 My goal is to set up a patient facing app that allows me to download those resource on Cerner, Epic and Elation. Then I have much of my post 2015 chart in one file. 
 
-Now have changed to simple index and laund files and set aside the originals as index-original.html and launch-original.html. 
+Now have changed to simple index and launch files and set aside the originals as index-original.html and launch-original.html. 
